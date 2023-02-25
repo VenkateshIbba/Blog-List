@@ -1,0 +1,32 @@
+/* Write your CSS code here */
+.list-items {
+  font-family: 'Roboto';
+  border-bottom: 1px solid #9aa5b1;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #12022f;
+  font-size: 20px;
+}
+
+.date {
+  color: #616e7c;
+  font-size: 19px;
+}
+
+@media screen and (max-width: 767px) {
+  .date {
+    font-size: 17px;
+  }
+}
+
+.description {
+  color: #616e7c;
+  font-size: 18px;
+}

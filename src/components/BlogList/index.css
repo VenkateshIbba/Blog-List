@@ -1,0 +1,15 @@
+/* Write your CSS code here */
+.blog-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .blog-list-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
